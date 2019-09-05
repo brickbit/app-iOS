@@ -166,11 +166,11 @@
                   shouldBeEnabled = "Yes"
                   ignoreCount = "0"
                   continueAfterRunningActions = "No"
-                  symbolName = "CleanArchitecture.MonumentDetailInteractor.getDetail(id: Swift.String, request: CleanArchitecture.MonumentDetailScene.getDetail.Request) -&gt; ()"
-                  moduleName = "CleanArchitecture"
+                  symbolName = "Monuments.MonumentDetailInteractor.getDetail(id: Swift.String, request: Monuments.MonumentDetailScene.getDetail.Request) -&gt; ()"
+                  moduleName = "Monuments"
                   usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/roberto/Desktop/cleanarchitecture%202/CleanArchitecture/Scenes/MonumentDetail/MonumentDetailInteractor.swift"
-                  timestampString = "589278563.2608401"
+                  urlString = "file:///Users/roberto/Documents/app-iOS/app-iOS/CleanArchitecture/Scenes/MonumentDetail/MonumentDetailInteractor.swift"
+                  timestampString = "589362651.906559"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
                   startingLineNumber = "27"
@@ -181,11 +181,11 @@
                   shouldBeEnabled = "Yes"
                   ignoreCount = "0"
                   continueAfterRunningActions = "No"
-                  symbolName = "closure #1 (CleanArchitecture.MonumentDetailStoreResult&lt;CleanArchitecture.MonumentDetail&gt;) -&gt; () in CleanArchitecture.MonumentDetailInteractor.getDetail(id: Swift.String, request: CleanArchitecture.MonumentDetailScene.getDetail.Request) -&gt; ()"
-                  moduleName = "CleanArchitecture"
+                  symbolName = "closure #1 (Monuments.MonumentDetailStoreResult&lt;Monuments.MonumentDetail&gt;) -&gt; () in Monuments.MonumentDetailInteractor.getDetail(id: Swift.String, request: Monuments.MonumentDetailScene.getDetail.Request) -&gt; ()"
+                  moduleName = "Monuments"
                   usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/roberto/Desktop/cleanarchitecture%202/CleanArchitecture/Scenes/MonumentDetail/MonumentDetailInteractor.swift"
-                  timestampString = "589278563.2628649"
+                  urlString = "file:///Users/roberto/Documents/app-iOS/app-iOS/CleanArchitecture/Scenes/MonumentDetail/MonumentDetailInteractor.swift"
+                  timestampString = "589362651.9105231"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
                   startingLineNumber = "29"
@@ -352,6 +352,38 @@
             startingLineNumber = "66"
             endingLineNumber = "66"
             landmarkName = "displayGetDetailSuccess(viewModel:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "CleanArchitecture/Scenes/MonumentList/MonumentListViewController+TableView.swift"
+            timestampString = "589362651.164734"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "24"
+            endingLineNumber = "24"
+            landmarkName = "tableView(_:didSelectRowAt:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "CleanArchitecture/Scenes/MonumentList/MonumentListViewController.swift"
+            timestampString = "589362651.164886"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "71"
+            endingLineNumber = "71"
+            landmarkName = "prepare(for:sender:)"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>

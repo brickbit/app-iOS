@@ -76,7 +76,5 @@ extension MonumentListViewController {
                 data.id = id
             }
         }
-        //let data = segue.destination as! MonumentDetailViewController
-        //data.id = id
     }
 }

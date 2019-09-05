@@ -12,12 +12,13 @@ import UIKit
 class MonumentListCell: UITableViewCell {
     
     @IBOutlet weak var geocoordinatesLabel: UILabel!
-    
+    @IBOutlet weak var idLabel: UILabel!
     @IBOutlet weak var titleLabel: UILabel!
     
     func setup(monument: MonumentListScene.getList.ViewModel.MonumentView) {
         geocoordinatesLabel.text = monument.geocoordinates
         titleLabel.text = monument.title
+        idLabel.text = monument.id
     }
     
     

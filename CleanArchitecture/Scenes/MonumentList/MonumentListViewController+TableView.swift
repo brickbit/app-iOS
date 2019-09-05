@@ -29,10 +29,15 @@ extension MonumentListViewController {
                 cell.setup(monument: displayMonuments[indexPath.row])
             return cell
         }
+        
         return UITableViewCell()
     }
     
+    override func tableView(_ tableView: UITableView, estimatedHeightForRowAt indexPath: IndexPath) -> CGFloat {
+        return self.tableView(tableView, heightForRowAt: indexPath)
+    }
+    /*
     override func scrollViewDidScroll(_ scrollView: UIScrollView) {
         self.tableView.reloadData()
-    }
+    }*/
 }
