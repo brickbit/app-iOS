@@ -29,7 +29,7 @@
 		363C156920DE507D00F1A075 /* MonumentListStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 363C156820DE507D00F1A075 /* MonumentListStore.swift */; };
 		363C156E20DE514A00F1A075 /* MonumentListAPIStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 363C156D20DE514A00F1A075 /* MonumentListAPIStore.swift */; };
 		363C157020DE516700F1A075 /* MonumentListAPIRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 363C156F20DE516700F1A075 /* MonumentListAPIRouter.swift */; };
-		363C157220DE518D00F1A075 /* CustomLocalStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 363C157120DE518D00F1A075 /* CustomLocalStore.swift */; };
+		363C157220DE518D00F1A075 /* MonumentListRealmStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 363C157120DE518D00F1A075 /* MonumentListRealmStore.swift */; };
 		363C157420DE51B300F1A075 /* MonumentListStoreWorker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 363C157320DE51B300F1A075 /* MonumentListStoreWorker.swift */; };
 		363C158320DE58F300F1A075 /* MonumentListPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 363C157D20DE58F300F1A075 /* MonumentListPresenter.swift */; };
 		363C158420DE58F300F1A075 /* MonumentListRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 363C157E20DE58F300F1A075 /* MonumentListRouter.swift */; };
@@ -65,7 +65,6 @@
 		622CFDDA231E8CFF00FF16B4 /* MonumentDetailAPIRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 622CFDD9231E8CFF00FF16B4 /* MonumentDetailAPIRouter.swift */; };
 		622CFDDC231E8E7600FF16B4 /* MonumentDetailResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 622CFDDB231E8E7600FF16B4 /* MonumentDetailResponse.swift */; };
 		62EA0764231FFDD9004C6AE1 /* NavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62EA0763231FFDD9004C6AE1 /* NavigationController.swift */; };
-		62EA0766231FFE7C004C6AE1 /* icons8-coliseo-208.png in Resources */ = {isa = PBXBuildFile; fileRef = 62EA0765231FFE7C004C6AE1 /* icons8-coliseo-208.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -93,7 +92,7 @@
 		363C156820DE507D00F1A075 /* MonumentListStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MonumentListStore.swift; sourceTree = "<group>"; };
 		363C156D20DE514A00F1A075 /* MonumentListAPIStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MonumentListAPIStore.swift; sourceTree = "<group>"; };
 		363C156F20DE516700F1A075 /* MonumentListAPIRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MonumentListAPIRouter.swift; sourceTree = "<group>"; };
-		363C157120DE518D00F1A075 /* CustomLocalStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomLocalStore.swift; sourceTree = "<group>"; };
+		363C157120DE518D00F1A075 /* MonumentListRealmStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MonumentListRealmStore.swift; sourceTree = "<group>"; };
 		363C157320DE51B300F1A075 /* MonumentListStoreWorker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MonumentListStoreWorker.swift; sourceTree = "<group>"; };
 		363C157A20DE561900F1A075 /* Swinject.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Swinject.framework; path = Carthage/Build/iOS/Swinject.framework; sourceTree = "<group>"; };
 		363C157D20DE58F300F1A075 /* MonumentListPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MonumentListPresenter.swift; sourceTree = "<group>"; };
@@ -129,7 +128,6 @@
 		622CFDD9231E8CFF00FF16B4 /* MonumentDetailAPIRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MonumentDetailAPIRouter.swift; sourceTree = "<group>"; };
 		622CFDDB231E8E7600FF16B4 /* MonumentDetailResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MonumentDetailResponse.swift; sourceTree = "<group>"; };
 		62EA0763231FFDD9004C6AE1 /* NavigationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = NavigationController.swift; path = ../../../../../../../Downloads/enel_edistapp_ios/Enel/Common/UI/NavigationControllers/NavigationController.swift; sourceTree = "<group>"; };
-		62EA0765231FFE7C004C6AE1 /* icons8-coliseo-208.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "icons8-coliseo-208.png"; path = "../../../../Downloads/icons8-coliseo-208.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -179,7 +177,6 @@
 				363C157520DE51DB00F1A075 /* Scenes */,
 				363C153020DE3FD900F1A075 /* Storyboards */,
 				363C152520DE3F4700F1A075 /* Assets.xcassets */,
-				62EA0765231FFE7C004C6AE1 /* icons8-coliseo-208.png */,
 				363C152A20DE3F4700F1A075 /* Info.plist */,
 			);
 			path = CleanArchitecture;
@@ -359,7 +356,7 @@
 		363C156C20DE510300F1A075 /* Local */ = {
 			isa = PBXGroup;
 			children = (
-				363C157120DE518D00F1A075 /* CustomLocalStore.swift */,
+				363C157120DE518D00F1A075 /* MonumentListRealmStore.swift */,
 			);
 			path = Local;
 			sourceTree = "<group>";
@@ -505,7 +502,6 @@
 				363C152920DE3F4700F1A075 /* LaunchScreen.storyboard in Resources */,
 				363C152620DE3F4700F1A075 /* Assets.xcassets in Resources */,
 				363C153620DE408600F1A075 /* Cartfile in Resources */,
-				62EA0766231FFE7C004C6AE1 /* icons8-coliseo-208.png in Resources */,
 				363C152420DE3F4500F1A075 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -579,7 +575,7 @@
 				622CFDB7231D23CC00FF16B4 /* APIError+Network.swift in Sources */,
 				622CFDDA231E8CFF00FF16B4 /* MonumentDetailAPIRouter.swift in Sources */,
 				622CFDC8231E820E00FF16B4 /* MonumentDetailInteractor.swift in Sources */,
-				363C157220DE518D00F1A075 /* CustomLocalStore.swift in Sources */,
+				363C157220DE518D00F1A075 /* MonumentListRealmStore.swift in Sources */,
 				622CFDB1231D1E1F00FF16B4 /* APIResponse.swift in Sources */,
 				363C158820DE58F300F1A075 /* MonumentListInteractor.swift in Sources */,
 				363C154220DE413A00F1A075 /* DIBuilder.swift in Sources */,

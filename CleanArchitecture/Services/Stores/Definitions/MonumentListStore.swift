@@ -10,11 +10,11 @@ import Foundation
 
 protocol MonumentListStore {
     func getList(completion: @escaping MonumentListStoreGetListCompletionHandler)
-
+    func saveMonumentListToRealmDB(monumentList: MonumentList, completion: @escaping MonumentListStoreSaveListCompletionHandler)
 }
 
 typealias MonumentListStoreGetListCompletionHandler = (MonumentListStoreResult<MonumentList>) -> Void
-
+typealias MonumentListStoreSaveListCompletionHandler = (MonumentListStoreEmptyResult) -> Void
 
 enum MonumentListStoreResult<U> {
     case success(result: U)

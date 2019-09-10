@@ -11,6 +11,9 @@ import Alamofire
 import AlamofireObjectMapper
 
 class MonumentListAPIStore: MonumentListStore {
+    func saveMonumentListToRealmDB(monumentList: MonumentList, completion: @escaping MonumentListStoreSaveListCompletionHandler) {
+        
+    }
     
     func getList(completion: @escaping MonumentListStoreGetListCompletionHandler) {
         try! Alamofire.request(MonumentListAPIRouter.getList.asURLRequest())

@@ -32,3 +32,15 @@ class MonumentResponse: Mappable {
         geocoordinates <- map["geocoordinates"]
     }
 }
+
+import RealmSwift
+
+class MonumentListRealm: Object {
+    @objc dynamic var list: [MonumentRealm]?
+}
+
+class MonumentRealm: Object {
+    @objc dynamic var id: String?
+    @objc dynamic var title: String?
+    @objc dynamic var geocoordinates: String?
+}

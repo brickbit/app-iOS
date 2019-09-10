@@ -9,15 +9,17 @@
 class MonumentListStoreWorker {
     
     // MARK: Business Logic
-    let MonumentListStore: MonumentListStore!
+    let monumentListStore: [MonumentListStore]!
     
-    init(store: MonumentListStore) {
-        self.MonumentListStore = store
+    init(store: [MonumentListStore]) {
+        self.monumentListStore = store
     }
     
     func getList(completion: @escaping MonumentListStoreGetListCompletionHandler) {
-        MonumentListStore.getList(completion: completion)
-
+        monumentListStore[0].getList(completion: completion)
+    }
+    func saveMonumentListToRealmDB(monumentList: MonumentList, completion: @escaping MonumentListStoreSaveListCompletionHandler) {
+        monumentListStore[1].saveMonumentListToRealmDB(monumentList: monumentList, completion: completion)
     }
 }
 

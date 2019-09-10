@@ -51,7 +51,7 @@ class BusinessAssembly: Assembly {
     
     private func registerMonumentListStoreWorker() {
         container.register(MonumentListStoreWorker.self) { container in
-            let store = container.resolve(MonumentListStore.self)!
+            let store = container.resolve([MonumentListStore].self)!
             let monumentListStoreWorker = MonumentListStoreWorker(store: store)
 
             return monumentListStoreWorker
