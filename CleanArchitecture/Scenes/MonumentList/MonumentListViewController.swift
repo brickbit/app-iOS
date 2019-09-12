@@ -52,7 +52,9 @@ class MonumentListViewController: UITableViewController, MonumentListDisplayLogi
     // MARK: Requests
     func getList() {
         let request = MonumentListScene.getList.Request()
-        interactor?.getList(request: request)
+        if (interactor?.getList(request: request) == false) {
+            interactor?.getList(request: request)
+        }
     }
     
     // MARK: Display logic
@@ -71,7 +73,6 @@ extension MonumentListViewController {
         if segue.identifier == "showDetail" {
             if let indexPath = tableView.indexPathForSelectedRow {
                 id = displayMonuments[indexPath.row].id
-                print("El id es \(id)")
                 let data = segue.destination as! MonumentDetailViewController
                 data.id = id
             }

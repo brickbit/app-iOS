@@ -10,7 +10,8 @@ import Foundation
 
 protocol MonumentListStore {
     func getList(completion: @escaping MonumentListStoreGetListCompletionHandler)
-    func saveMonumentListToRealmDB(monumentList: MonumentList, completion: @escaping MonumentListStoreSaveListCompletionHandler)
+    func saveMonumentListToRealmDB(monumentList: MonumentList)
+    func getMonumentListFromRealmDB(monumentList: inout MonumentList)
 }
 
 typealias MonumentListStoreGetListCompletionHandler = (MonumentListStoreResult<MonumentList>) -> Void

@@ -19,12 +19,10 @@ enum MonumentDetailAPIRouter: URLRequestConvertible {
         
         switch self {
         case .getDetails(let id):
-            print(id)
             let urlId = "\(Constants.API.Monuments.Points.url)/\(id)"
             url = URL(string: urlId)
             request = URLRequest(url: url)
             request.httpMethod = "GET"
-            print(request.url?.absoluteURL.absoluteString)
             
             return try JSONEncoding().encode(request)
         }

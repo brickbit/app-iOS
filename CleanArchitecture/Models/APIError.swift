@@ -5,7 +5,7 @@
 //  Created by Roberto on 02/09/2019.
 //  Copyright © 2019 Marcos Molero. All rights reserved.
 //
-
+/* //DEPRECATED
 import Foundation
 
 struct APIError {
@@ -16,4 +16,4 @@ struct APIError {
         self.code = code
         self.description = description
     }
-}
+}*/

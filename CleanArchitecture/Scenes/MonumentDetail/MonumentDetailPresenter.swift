@@ -18,9 +18,6 @@ class MonumentDetailPresenter: MonumentDetailPresentationLogic {
     // MARK: Presentation logic
     func presentGetDetailSuccess(response: MonumentDetailScene.getDetail.Response) {
         let viewModel = MonumentDetailScene.getDetail.ViewModel(displayDetailMonumentView: mapDetailView(detail: response.detailMonument), displayError: "")
-        print("En el presenter...")
-        print(viewModel.displayDetailMonumentView.title)
-        print(viewModel.displayDetailMonumentView.address)
         viewController?.displayGetDetailSuccess(viewModel: viewModel)
     }
     

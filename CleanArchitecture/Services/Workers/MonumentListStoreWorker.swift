@@ -19,7 +19,11 @@ class MonumentListStoreWorker {
         monumentListStore[0].getList(completion: completion)
     }
     func saveMonumentListToRealmDB(monumentList: MonumentList, completion: @escaping MonumentListStoreSaveListCompletionHandler) {
-        monumentListStore[1].saveMonumentListToRealmDB(monumentList: monumentList, completion: completion)
+        monumentListStore[1].saveMonumentListToRealmDB(monumentList: monumentList)
+    }
+    
+    func getMonumentListFromRealmDB(monumentList: inout MonumentList){
+        monumentListStore[1].getMonumentListFromRealmDB(monumentList: &monumentList)
     }
 }
 

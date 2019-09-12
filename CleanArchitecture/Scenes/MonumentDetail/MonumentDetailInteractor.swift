@@ -28,9 +28,6 @@ class MonumentDetailInteractor: MonumentDetailBusinessLogic, MonumentDetailDataS
             switch result {
             case .success(let monumentDetail):
                 let response = MonumentDetailScene.getDetail.Response(detailMonument: monumentDetail, errorCode: 1)
-                print("En el interactor....")
-                print(response.detailMonument.title)
-                print(response.detailMonument.phone)
                 self.presenter?.presentGetDetailSuccess(response: response)
                 break
             case .failure(let error):

@@ -30,7 +30,6 @@ func mapMonumentView(monument: Monument) -> MonumentListScene.getList.ViewModel.
     return(MonumentListScene.getList.ViewModel.MonumentView(id: monument.id, title: monument.title, geocoordinates: monument.geocoordinates))
 }//[Monument]->[MonumentView]
 
-
 /*MonumentDetail*/
 //Response -> Domain
 func mapDetail(detail: MonumentDetailResponse) -> MonumentDetail{

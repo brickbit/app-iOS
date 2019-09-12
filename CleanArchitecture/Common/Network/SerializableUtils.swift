@@ -6,6 +6,8 @@
 //  Copyright © 2018 Marcos Molero. All rights reserved.
 //
 
+// DEPRECATED, ONLY FOR SWIFTYJSON
+/*
 import Foundation
 import Alamofire
 import SwiftyJSON
@@ -105,5 +107,5 @@ enum BackendError: Error {
     case jsonSerialization(error: Error)
     case xmlSerialization(error: Error)
     case objectSerialization(reason: String)
-}
+}*/
 

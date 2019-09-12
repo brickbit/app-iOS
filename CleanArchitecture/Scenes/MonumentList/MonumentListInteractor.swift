@@ -9,7 +9,7 @@
 //  https://github.com/HelmMobile/clean-swift-templates
 
 protocol MonumentListBusinessLogic {
-    func getList(request: MonumentListScene.getList.Request)
+    func getList(request: MonumentListScene.getList.Request) -> Bool
 
 }
 
@@ -21,14 +21,42 @@ class MonumentListInteractor: MonumentListBusinessLogic, MonumentListDataStore {
     
     var presenter: MonumentListPresentationLogic?
     var monumentListStoreWorker: MonumentListStoreWorker!
+    var strategy = SourceStrategy.LOCAL
     
     // MARK: Business logic
-    func getList(request: MonumentListScene.getList.Request) {
+    func getList(request: MonumentListScene.getList.Request) -> Bool {
+        var obtained = false
+        switch strategy {
+        case SourceStrategy.NETWORK_SAVE_LOCAL:
+            obtained = getListAndSave()
+            break
+        case SourceStrategy.LOCAL:
+            obtained = getListFromDB()
+        default:
+            obtained = getListFromNetwork()
+        }
+        return obtained
+    }
+    
+    func getListAndSave() -> Bool {
+        var obtained = false
         monumentListStoreWorker.getList() { (result) in
             switch result {
             case .success(let monumentList):
+                obtained = true
                 let response = MonumentListScene.getList.Response(listMonument: monumentList, errorCode: 1)
                 self.presenter?.presentGetListSuccess(response: response)
+                self.monumentListStoreWorker.saveMonumentListToRealmDB(monumentList: monumentList, completion: { (resultDB) in
+                    switch resultDB {
+                    case .success:
+                        print("El guardado en la base de datos se ha realizado con éxito")
+                        self.strategy = SourceStrategy.LOCAL
+                        break
+                    case .failure(let error):
+                        debugPrint(error.localizedDescription)
+                        break
+                    }
+                })
                 break
             case .failure(let error):
                 debugPrint(error.localizedDescription)
@@ -37,6 +65,44 @@ class MonumentListInteractor: MonumentListBusinessLogic, MonumentListDataStore {
                 break
             }
         }
+
+        
+        return obtained
+    }
+    
+    func getListFromNetwork() -> Bool {
+        var obtained = false
+        monumentListStoreWorker.getList() { (result) in
+            switch result {
+            case .success(let monumentList):
+                let response = MonumentListScene.getList.Response(listMonument: monumentList, errorCode: 1)
+                self.presenter?.presentGetListSuccess(response: response)
+                obtained = true
+                break
+            case .failure(let error):
+                debugPrint(error.localizedDescription)
+                let response = MonumentListScene.getList.Response(listMonument: MonumentList(list: []), errorCode: 1)
+                self.presenter?.presentGetListError(response: response)
+                break
+            }
+        }
+        return obtained
+    }
+    
+    func getListFromDB() -> Bool {
+        var obtained = false
+        var monumentList = MonumentList(list: [Monument(id: "-1", title: "-", geocoordinates: "0-0")])
+        monumentListStoreWorker.getMonumentListFromRealmDB(monumentList: &monumentList)
+        if monumentList.list.count != 0 {
+            let response = MonumentListScene.getList.Response(listMonument: monumentList, errorCode: 1)
+            self.presenter?.presentGetListSuccess(response: response)
+            obtained = true
+        }
+        else {
+            strategy = SourceStrategy.NETWORK_SAVE_LOCAL
+        }
+
+        return obtained
     }
 
 }
