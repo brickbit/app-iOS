@@ -10,10 +10,12 @@ import Foundation
 
 protocol MonumentDetailStore {
     func getDetails(id: String, completion: @escaping MonumentDetailStoreGetDetailsCompletionHandler)
-    
+    func saveMonumentDetailToRealmDB(id: String, monumentDetail: MonumentDetail)
+    func getMonumentDetailFromRealmDB(id: String, monumentDetail: inout MonumentDetail)
 }
 
 typealias MonumentDetailStoreGetDetailsCompletionHandler = (MonumentDetailStoreResult<MonumentDetail>) -> Void
+typealias MonumentDetailStoreSaveDetailCompletionHandler = (MonumentDetailStoreEmptyResult) -> Void
 
 
 enum MonumentDetailStoreResult<U> {

@@ -12,6 +12,12 @@ import AlamofireObjectMapper
 
 class MonumentDetailAPIStore: MonumentDetailStore {
     
+    func saveMonumentDetailToRealmDB(id: String, monumentDetail: MonumentDetail) {
+    }
+    
+    func getMonumentDetailFromRealmDB(id: String, monumentDetail: inout MonumentDetail) {
+    }
+    
     func getDetails(id: String, completion: @escaping MonumentDetailStoreGetDetailsCompletionHandler) {
         try! Alamofire.request(MonumentDetailAPIRouter.getDetails(id).asURLRequest())
             .responseObject(completionHandler: { (response: DataResponse<MonumentDetailResponse>) in

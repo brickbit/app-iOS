@@ -40,9 +40,19 @@ class NetworkAssembly: Assembly {
     }
     
     private func registerMonumentDetailStore() {
-        container.register(MonumentDetailStore.self) { container in
-            let registerAPIStore = MonumentDetailAPIStore()
-            return registerAPIStore
+        container.register([MonumentDetailStore].self) { container in
+            let apiStore = container.resolve(MonumentDetailStore.self, name: "api")!
+            let realmStore = container.resolve(MonumentDetailStore.self, name: "realm")!
+            
+            return [apiStore, realmStore]
+        }
+        container.register(MonumentDetailStore.self, name: "api") { container in
+            let store = MonumentDetailAPIStore()
+            return store
+        }
+        container.register(MonumentDetailStore.self, name: "realm") { container in
+            let store = MonumentDetailRealmStore()
+            return store
         }
     }
     

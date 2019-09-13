@@ -64,6 +64,7 @@
 		622CFDD8231E8C4300FF16B4 /* MonumentDetailAPIStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 622CFDD7231E8C4300FF16B4 /* MonumentDetailAPIStore.swift */; };
 		622CFDDA231E8CFF00FF16B4 /* MonumentDetailAPIRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 622CFDD9231E8CFF00FF16B4 /* MonumentDetailAPIRouter.swift */; };
 		622CFDDC231E8E7600FF16B4 /* MonumentDetailResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 622CFDDB231E8E7600FF16B4 /* MonumentDetailResponse.swift */; };
+		627DB4F6232A617E00D21A81 /* MonumentDetailRealmStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 627DB4F5232A617E00D21A81 /* MonumentDetailRealmStore.swift */; };
 		62A633242328E33500CBCDB6 /* SourceStrategy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62A633232328E33500CBCDB6 /* SourceStrategy.swift */; };
 		62EA0764231FFDD9004C6AE1 /* NavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62EA0763231FFDD9004C6AE1 /* NavigationController.swift */; };
 /* End PBXBuildFile section */
@@ -128,6 +129,7 @@
 		622CFDD7231E8C4300FF16B4 /* MonumentDetailAPIStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MonumentDetailAPIStore.swift; sourceTree = "<group>"; };
 		622CFDD9231E8CFF00FF16B4 /* MonumentDetailAPIRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MonumentDetailAPIRouter.swift; sourceTree = "<group>"; };
 		622CFDDB231E8E7600FF16B4 /* MonumentDetailResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MonumentDetailResponse.swift; sourceTree = "<group>"; };
+		627DB4F5232A617E00D21A81 /* MonumentDetailRealmStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MonumentDetailRealmStore.swift; sourceTree = "<group>"; };
 		62A633232328E33500CBCDB6 /* SourceStrategy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SourceStrategy.swift; sourceTree = "<group>"; };
 		62EA0763231FFDD9004C6AE1 /* NavigationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = NavigationController.swift; path = ../../../../../../../Downloads/enel_edistapp_ios/Enel/Common/UI/NavigationControllers/NavigationController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -360,6 +362,7 @@
 			isa = PBXGroup;
 			children = (
 				363C157120DE518D00F1A075 /* MonumentListRealmStore.swift */,
+				627DB4F5232A617E00D21A81 /* MonumentDetailRealmStore.swift */,
 			);
 			path = Local;
 			sourceTree = "<group>";
@@ -591,6 +594,7 @@
 				622CFDC6231E820000FF16B4 /* MonumentDetailDependencyInjector.swift in Sources */,
 				363C151F20DE3F4500F1A075 /* AppDelegate.swift in Sources */,
 				363C154620DE415200F1A075 /* SwinjectDIManager.swift in Sources */,
+				627DB4F6232A617E00D21A81 /* MonumentDetailRealmStore.swift in Sources */,
 				622CFDD6231E89EA00FF16B4 /* MonumentDetail.swift in Sources */,
 				622CFDCE231E829300FF16B4 /* MonumentDetailRouter.swift in Sources */,
 			);

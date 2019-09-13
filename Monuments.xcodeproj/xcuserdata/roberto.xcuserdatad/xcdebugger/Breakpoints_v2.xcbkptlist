@@ -153,40 +153,8 @@
             shouldBeEnabled = "Yes"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
-            filePath = "CleanArchitecture/Services/Workers/MonumentListStoreWorker.swift"
-            timestampString = "589978553.5302939"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "22"
-            endingLineNumber = "22"
-            landmarkName = "saveMonumentListToRealmDB(monumentList:completion:)"
-            landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            shouldBeEnabled = "Yes"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "CleanArchitecture/Services/Workers/MonumentListStoreWorker.swift"
-            timestampString = "589978553.5304331"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "19"
-            endingLineNumber = "19"
-            landmarkName = "getList(completion:)"
-            landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            shouldBeEnabled = "Yes"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
             filePath = "CleanArchitecture/Scenes/MonumentList/MonumentListInteractor.swift"
-            timestampString = "589978553.530537"
+            timestampString = "589991507.459155"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "75"
@@ -202,7 +170,7 @@
                   moduleName = "Monuments"
                   usesParentBreakpointCondition = "Yes"
                   urlString = "file:///Users/roberto/Documents/app-iOS/app-iOS/CleanArchitecture/Scenes/MonumentList/MonumentListInteractor.swift"
-                  timestampString = "589976842.433865"
+                  timestampString = "590053912.474045"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
                   startingLineNumber = "75"
@@ -217,7 +185,7 @@
                   moduleName = "Monuments"
                   usesParentBreakpointCondition = "Yes"
                   urlString = "file:///Users/roberto/Documents/app-iOS/app-iOS/CleanArchitecture/Scenes/MonumentList/MonumentListInteractor.swift"
-                  timestampString = "589976842.436838"
+                  timestampString = "590053912.4761569"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
                   startingLineNumber = "74"
@@ -234,7 +202,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "CleanArchitecture/Scenes/MonumentList/MonumentListInteractor.swift"
-            timestampString = "589978553.530633"
+            timestampString = "589991507.459538"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "62"
@@ -265,39 +233,279 @@
             shouldBeEnabled = "Yes"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
-            filePath = "CleanArchitecture/Scenes/MonumentList/MonumentListInteractor.swift"
-            timestampString = "589978553.5308"
+            filePath = "CleanArchitecture/Services/Stores/Definitions/MonumentListStore.swift"
+            timestampString = "589992110.8515331"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "49"
-            endingLineNumber = "49"
-            landmarkName = "getListAndSave()"
+            startingLineNumber = "14"
+            endingLineNumber = "14"
+            landmarkName = "MonumentListStore"
+            landmarkType = "5">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "CleanArchitecture/Services/Stores/Local/MonumentDetailRealmStore.swift"
+            timestampString = "590054752.1984659"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "24"
+            endingLineNumber = "24"
+            landmarkName = "saveMonumentDetailToRealmDB(id:monumentDetail:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "CleanArchitecture/Services/Stores/Local/MonumentDetailRealmStore.swift"
+            timestampString = "590054752.198866"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "15"
+            endingLineNumber = "15"
+            landmarkName = "saveMonumentDetailToRealmDB(id:monumentDetail:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "CleanArchitecture/Services/Stores/Local/MonumentDetailRealmStore.swift"
+            timestampString = "590054752.199115"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "32"
+            endingLineNumber = "32"
+            landmarkName = "getMonumentDetailFromRealmDB(id:monumentDetail:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "CleanArchitecture/Services/Stores/Local/MonumentDetailRealmStore.swift"
+            timestampString = "590054752.199357"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "39"
+            endingLineNumber = "39"
+            landmarkName = "getMonumentDetailDB(monumentDetailRealm:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "CleanArchitecture/Services/Stores/Local/MonumentDetailRealmStore.swift"
+            timestampString = "590054752.199603"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "43"
+            endingLineNumber = "43"
+            landmarkName = "getMonumentDetailDB(monumentDetailRealm:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "CleanArchitecture/Scenes/MonumentDetail/MonumentDetailInteractor.swift"
+            timestampString = "590053199.774133"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "91"
+            endingLineNumber = "91"
+            landmarkName = "getDetailFromDB(id:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "CleanArchitecture/Scenes/MonumentDetail/MonumentDetailInteractor.swift"
+            timestampString = "590053199.774541"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "93"
+            endingLineNumber = "93"
+            landmarkName = "getDetailFromDB(id:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "CleanArchitecture/Scenes/MonumentDetail/MonumentDetailInteractor.swift"
+            timestampString = "590053199.774799"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "94"
+            endingLineNumber = "94"
+            landmarkName = "getDetailFromDB(id:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "CleanArchitecture/Scenes/MonumentDetail/MonumentDetailInteractor.swift"
+            timestampString = "590053199.7750421"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "96"
+            endingLineNumber = "96"
+            landmarkName = "getDetailFromDB(id:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "CleanArchitecture/Scenes/MonumentDetail/MonumentDetailInteractor.swift"
+            timestampString = "590053199.775283"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "100"
+            endingLineNumber = "100"
+            landmarkName = "getDetailFromDB(id:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "CleanArchitecture/Scenes/MonumentDetail/MonumentDetailInteractor.swift"
+            timestampString = "590053199.775525"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "47"
+            endingLineNumber = "47"
+            landmarkName = "getDetailAndSave(id:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "CleanArchitecture/Scenes/MonumentDetail/MonumentDetailInteractor.swift"
+            timestampString = "590053199.775767"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "43"
+            endingLineNumber = "43"
+            landmarkName = "getDetailAndSave(id:)"
             landmarkType = "7">
             <Locations>
                <Location
                   shouldBeEnabled = "Yes"
                   ignoreCount = "0"
                   continueAfterRunningActions = "No"
-                  symbolName = "closure #1 (Monuments.MonumentListStoreResult&lt;Monuments.MonumentList&gt;) -&gt; () in Monuments.MonumentListInteractor.getListAndSave() -&gt; Swift.Bool"
+                  symbolName = "Monuments.MonumentDetailInteractor.getDetailAndSave(id: Swift.String) -&gt; Swift.Bool"
                   moduleName = "Monuments"
                   usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/roberto/Documents/app-iOS/app-iOS/CleanArchitecture/Scenes/MonumentList/MonumentListInteractor.swift"
-                  timestampString = "589976842.454657"
+                  urlString = "file:///Users/roberto/Documents/app-iOS/app-iOS/CleanArchitecture/Scenes/MonumentDetail/MonumentDetailInteractor.swift"
+                  timestampString = "590053912.540532"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "49"
-                  endingLineNumber = "49"
-                  offsetFromSymbolStart = "910">
+                  startingLineNumber = "43"
+                  endingLineNumber = "43"
+                  offsetFromSymbolStart = "182">
                </Location>
                <Location
                   shouldBeEnabled = "Yes"
                   ignoreCount = "0"
                   continueAfterRunningActions = "No"
-                  symbolName = "closure #1 (Monuments.MonumentListStoreEmptyResult) -&gt; () in closure #1 (Monuments.MonumentListStoreResult&lt;Monuments.MonumentList&gt;) -&gt; () in Monuments.MonumentListInteractor.getListAndSave() -&gt; Swift.Bool"
+                  symbolName = "closure #1 (Monuments.MonumentDetailStoreResult&lt;Monuments.MonumentDetail&gt;) -&gt; () in Monuments.MonumentDetailInteractor.getDetailAndSave(id: Swift.String) -&gt; Swift.Bool"
                   moduleName = "Monuments"
                   usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/roberto/Documents/app-iOS/app-iOS/CleanArchitecture/Scenes/MonumentList/MonumentListInteractor.swift"
-                  timestampString = "589976842.45702"
+                  urlString = "file:///Users/roberto/Documents/app-iOS/app-iOS/CleanArchitecture/Scenes/MonumentDetail/MonumentDetailInteractor.swift"
+                  timestampString = "590053912.542588"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "42"
+                  endingLineNumber = "42"
+                  offsetFromSymbolStart = "411">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "CleanArchitecture/Scenes/MonumentDetail/MonumentDetailInteractor.swift"
+            timestampString = "590053199.7760071"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "49"
+            endingLineNumber = "49"
+            landmarkName = "getDetailAndSave(id:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Monuments.MonumentDetailStoreResult&lt;Monuments.MonumentDetail&gt;) -&gt; () in Monuments.MonumentDetailInteractor.getDetailAndSave(id: Swift.String) -&gt; Swift.Bool"
+                  moduleName = "Monuments"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/roberto/Documents/app-iOS/app-iOS/CleanArchitecture/Scenes/MonumentDetail/MonumentDetailInteractor.swift"
+                  timestampString = "590053912.548488"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "49"
+                  endingLineNumber = "49"
+                  offsetFromSymbolStart = "986">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Monuments.MonumentDetailStoreEmptyResult) -&gt; () in closure #1 (Monuments.MonumentDetailStoreResult&lt;Monuments.MonumentDetail&gt;) -&gt; () in Monuments.MonumentDetailInteractor.getDetailAndSave(id: Swift.String) -&gt; Swift.Bool"
+                  moduleName = "Monuments"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/roberto/Documents/app-iOS/app-iOS/CleanArchitecture/Scenes/MonumentDetail/MonumentDetailInteractor.swift"
+                  timestampString = "590053912.5507751"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
                   startingLineNumber = "51"
@@ -313,13 +521,13 @@
             shouldBeEnabled = "Yes"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
-            filePath = "CleanArchitecture/Scenes/MonumentList/MonumentListInteractor.swift"
-            timestampString = "589978553.530889"
+            filePath = "CleanArchitecture/Scenes/MonumentDetail/MonumentDetailViewController.swift"
+            timestampString = "590054752.199918"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "46"
-            endingLineNumber = "46"
-            landmarkName = "getListAndSave()"
+            startingLineNumber = "61"
+            endingLineNumber = "61"
+            landmarkName = "getDetail()"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
@@ -329,235 +537,46 @@
             shouldBeEnabled = "Yes"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
-            filePath = "CleanArchitecture/Scenes/MonumentList/MonumentListInteractor.swift"
-            timestampString = "589978553.530974"
+            filePath = "CleanArchitecture/Scenes/MonumentDetail/MonumentDetailInteractor.swift"
+            timestampString = "590053199.776294"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "50"
-            endingLineNumber = "50"
-            landmarkName = "getListAndSave()"
+            startingLineNumber = "42"
+            endingLineNumber = "42"
+            landmarkName = "getDetailAndSave(id:)"
             landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            shouldBeEnabled = "Yes"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "CleanArchitecture/Scenes/MonumentList/MonumentListInteractor.swift"
-            timestampString = "589978553.53106"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "53"
-            endingLineNumber = "53"
-            landmarkName = "getListAndSave()"
-            landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            shouldBeEnabled = "Yes"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "CleanArchitecture/Scenes/MonumentList/MonumentListInteractor.swift"
-            timestampString = "589978553.531146"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "56"
-            endingLineNumber = "56"
-            landmarkName = "getListAndSave()"
-            landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            shouldBeEnabled = "Yes"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "CleanArchitecture/Models/Data/MonumentListResponse.swift"
-            timestampString = "589978553.531234"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "39"
-            endingLineNumber = "39"
-            landmarkName = "MonumentListRealm"
-            landmarkType = "3">
             <Locations>
                <Location
                   shouldBeEnabled = "Yes"
                   ignoreCount = "0"
                   continueAfterRunningActions = "No"
-                  symbolName = "Monuments.MonumentListRealm.list.getter : RealmSwift.List&lt;Monuments.MonumentRealm&gt;"
+                  symbolName = "Monuments.MonumentDetailInteractor.getDetailAndSave(id: Swift.String) -&gt; Swift.Bool"
                   moduleName = "Monuments"
                   usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/roberto/Documents/app-iOS/app-iOS/CleanArchitecture/Models/Data/MonumentListResponse.swift"
-                  timestampString = "589976842.47852"
+                  urlString = "file:///Users/roberto/Documents/app-iOS/app-iOS/CleanArchitecture/Scenes/MonumentDetail/MonumentDetailInteractor.swift"
+                  timestampString = "590053912.5618449"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "39"
-                  endingLineNumber = "39"
-                  offsetFromSymbolStart = "44">
+                  startingLineNumber = "42"
+                  endingLineNumber = "42"
+                  offsetFromSymbolStart = "178">
                </Location>
                <Location
                   shouldBeEnabled = "Yes"
                   ignoreCount = "0"
                   continueAfterRunningActions = "No"
-                  symbolName = "Monuments.MonumentListRealm.init() -&gt; Monuments.MonumentListRealm"
+                  symbolName = "closure #1 (Monuments.MonumentDetailStoreResult&lt;Monuments.MonumentDetail&gt;) -&gt; () in Monuments.MonumentDetailInteractor.getDetailAndSave(id: Swift.String) -&gt; Swift.Bool"
                   moduleName = "Monuments"
                   usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/roberto/Documents/app-iOS/app-iOS/CleanArchitecture/Models/Data/MonumentListResponse.swift"
-                  timestampString = "589976842.4804"
+                  urlString = "file:///Users/roberto/Documents/app-iOS/app-iOS/CleanArchitecture/Scenes/MonumentDetail/MonumentDetailInteractor.swift"
+                  timestampString = "590053912.565378"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "39"
-                  endingLineNumber = "39"
-                  offsetFromSymbolStart = "26">
-               </Location>
-               <Location
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "Monuments.MonumentListRealm.init(value: Any) -&gt; Monuments.MonumentListRealm"
-                  moduleName = "Monuments"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/roberto/Documents/app-iOS/app-iOS/CleanArchitecture/Models/Data/MonumentListResponse.swift"
-                  timestampString = "589976842.482258"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "39"
-                  endingLineNumber = "39"
-                  offsetFromSymbolStart = "38">
-               </Location>
-               <Location
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "Monuments.MonumentListRealm.init(realm: __C.RLMRealm, schema: __C.RLMObjectSchema) -&gt; Monuments.MonumentListRealm"
-                  moduleName = "Monuments"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/roberto/Documents/app-iOS/app-iOS/CleanArchitecture/Models/Data/MonumentListResponse.swift"
-                  timestampString = "589976842.4841501"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "39"
-                  endingLineNumber = "39"
-                  offsetFromSymbolStart = "50">
-               </Location>
-               <Location
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "Monuments.MonumentListRealm.init(value: Any, schema: __C.RLMSchema) -&gt; Monuments.MonumentListRealm"
-                  moduleName = "Monuments"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/roberto/Documents/app-iOS/app-iOS/CleanArchitecture/Models/Data/MonumentListResponse.swift"
-                  timestampString = "589976842.486029"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "39"
-                  endingLineNumber = "39"
-                  offsetFromSymbolStart = "53">
+                  startingLineNumber = "42"
+                  endingLineNumber = "42"
+                  offsetFromSymbolStart = "411">
                </Location>
             </Locations>
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            shouldBeEnabled = "Yes"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "CleanArchitecture/Services/Stores/Local/MonumentListRealmStore.swift"
-            timestampString = "589978553.531304"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "21"
-            endingLineNumber = "21"
-            landmarkName = "saveMonumentDB(monument:)"
-            landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            shouldBeEnabled = "Yes"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "CleanArchitecture/Services/Stores/Local/MonumentListRealmStore.swift"
-            timestampString = "589978553.531988"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "23"
-            endingLineNumber = "23"
-            landmarkName = "saveMonumentDB(monument:)"
-            landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            shouldBeEnabled = "Yes"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "CleanArchitecture/Services/Stores/Local/MonumentListRealmStore.swift"
-            timestampString = "589978553.53253"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "25"
-            endingLineNumber = "25"
-            landmarkName = "saveMonumentDB(monument:)"
-            landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            shouldBeEnabled = "Yes"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "CleanArchitecture/Services/Workers/MonumentListStoreWorker.swift"
-            timestampString = "589978553.533041"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "26"
-            endingLineNumber = "26"
-            landmarkName = "getMonumentListFromRealmDB()"
-            landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            shouldBeEnabled = "Yes"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "CleanArchitecture/Services/Stores/Definitions/MonumentListStore.swift"
-            timestampString = "589978553.533372"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "14"
-            endingLineNumber = "14"
-            landmarkName = "MonumentListStore"
-            landmarkType = "5">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            shouldBeEnabled = "Yes"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "CleanArchitecture/Scenes/MonumentList/MonumentListInteractor.swift"
-            timestampString = "589978553.533465"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "52"
-            endingLineNumber = "52"
-            landmarkName = "getListAndSave()"
-            landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
    </Breakpoints>

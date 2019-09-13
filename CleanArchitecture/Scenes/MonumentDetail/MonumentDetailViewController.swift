@@ -50,7 +50,6 @@ class MonumentDetailViewController: UIViewController, MonumentDetailDisplayLogic
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        print("El id es: \(String(describing: id))")
         getDetail()
     }
     
@@ -58,8 +57,14 @@ class MonumentDetailViewController: UIViewController, MonumentDetailDisplayLogic
     // MARK: Requests
     func getDetail() {
         let request = MonumentDetailScene.getDetail.Request(id: id ?? "-1")
-        interactor?.getDetail(id: id ?? "-1", request: request)
+        if (interactor?.getDetail(id: id ?? "-1", request: request) == false) {
+            interactor?.getDetail(id: id ?? "-1", request: request)
+        }
+        
+        
     }
+    
+    
     
     // MARK: Display logic
     func displayGetDetailSuccess(viewModel: MonumentDetailScene.getDetail.ViewModel) {
