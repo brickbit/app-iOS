@@ -38,13 +38,10 @@
 		363C158720DE58F300F1A075 /* MonumentListDependencyInjector.swift in Sources */ = {isa = PBXBuildFile; fileRef = 363C158120DE58F300F1A075 /* MonumentListDependencyInjector.swift */; };
 		363C158820DE58F300F1A075 /* MonumentListInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 363C158220DE58F300F1A075 /* MonumentListInteractor.swift */; };
 		622CFD932317F05E00FF16B4 /* Alamofire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 622CFD922317F05E00FF16B4 /* Alamofire.framework */; };
-		622CFD952317F06D00FF16B4 /* Charts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 622CFD942317F06D00FF16B4 /* Charts.framework */; };
 		622CFD972317F07E00FF16B4 /* Material.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 622CFD962317F07E00FF16B4 /* Material.framework */; };
-		622CFD992317F08D00FF16B4 /* Motion.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 622CFD982317F08D00FF16B4 /* Motion.framework */; };
 		622CFD9B2317F09C00FF16B4 /* Realm.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 622CFD9A2317F09C00FF16B4 /* Realm.framework */; };
 		622CFD9D2317F0A900FF16B4 /* RealmSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 622CFD9C2317F0A900FF16B4 /* RealmSwift.framework */; };
 		622CFDA02317F0C800FF16B4 /* Swinject.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 363C157A20DE561900F1A075 /* Swinject.framework */; };
-		622CFDAF231D1A5200FF16B4 /* SwiftyJSON.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 622CFD9E2317F0B900FF16B4 /* SwiftyJSON.framework */; };
 		622CFDB1231D1E1F00FF16B4 /* APIResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 622CFDB0231D1E1F00FF16B4 /* APIResponse.swift */; };
 		622CFDB3231D1E3300FF16B4 /* APIError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 622CFDB2231D1E3300FF16B4 /* APIError.swift */; };
 		622CFDB7231D23CC00FF16B4 /* APIError+Network.swift in Sources */ = {isa = PBXBuildFile; fileRef = 622CFDB6231D23CC00FF16B4 /* APIError+Network.swift */; };
@@ -139,13 +136,10 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				622CFDAF231D1A5200FF16B4 /* SwiftyJSON.framework in Frameworks */,
 				622CFDA02317F0C800FF16B4 /* Swinject.framework in Frameworks */,
 				622CFD9D2317F0A900FF16B4 /* RealmSwift.framework in Frameworks */,
 				622CFD9B2317F09C00FF16B4 /* Realm.framework in Frameworks */,
-				622CFD992317F08D00FF16B4 /* Motion.framework in Frameworks */,
 				622CFD972317F07E00FF16B4 /* Material.framework in Frameworks */,
-				622CFD952317F06D00FF16B4 /* Charts.framework in Frameworks */,
 				622CFD932317F05E00FF16B4 /* Alamofire.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -524,12 +518,9 @@
 			);
 			inputPaths = (
 				"$(SRCROOT)/Carthage/Build/iOS/Swinject.framework",
-				"$(SRCROOT)/Carthage/Build/iOS/SwiftyJSON.framework",
 				"$(SRCROOT)/Carthage/Build/iOS/RealmSwift.framework",
 				"$(SRCROOT)/Carthage/Build/iOS/Realm.framework",
-				"$(SRCROOT)/Carthage/Build/iOS/Motion.framework",
 				"$(SRCROOT)/Carthage/Build/iOS/Material.framework",
-				"$(SRCROOT)/Carthage/Build/iOS/Charts.framework",
 				"$(SRCROOT)/Carthage/Build/iOS/Alamofire.framework",
 				"$(SRCROOT)/Carthage/Build/iOS/AlamofireObjectMapper.framework",
 				"$(SRCROOT)/Carthage/Build/iOS/ObjectMapper.framework",

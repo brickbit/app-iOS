@@ -1,8 +1,5 @@
 github "Swinject/Swinject"
 github "CosmicMind/Material"
-github "CosmicMind/Motion"
-github "danielgindi/Charts" == 3.2.1
 github "Alamofire/Alamofire" "4.8.0"
-github "SwiftyJSON/SwiftyJSON" ~> 4.0
 github "realm/realm-cocoa"
 github "tristanhimmelman/AlamofireObjectMapper" ~> 5.2
