@@ -65,8 +65,8 @@
 		622CFDDA231E8CFF00FF16B4 /* MonumentDetailAPIRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 622CFDD9231E8CFF00FF16B4 /* MonumentDetailAPIRouter.swift */; };
 		622CFDDC231E8E7600FF16B4 /* MonumentDetailResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 622CFDDB231E8E7600FF16B4 /* MonumentDetailResponse.swift */; };
 		627DB4F6232A617E00D21A81 /* MonumentDetailRealmStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 627DB4F5232A617E00D21A81 /* MonumentDetailRealmStore.swift */; };
+		6296D8D3232F6816004EA7CF /* NavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6296D8D2232F6816004EA7CF /* NavigationController.swift */; };
 		62A633242328E33500CBCDB6 /* SourceStrategy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62A633232328E33500CBCDB6 /* SourceStrategy.swift */; };
-		62EA0764231FFDD9004C6AE1 /* NavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62EA0763231FFDD9004C6AE1 /* NavigationController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -130,8 +130,8 @@
 		622CFDD9231E8CFF00FF16B4 /* MonumentDetailAPIRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MonumentDetailAPIRouter.swift; sourceTree = "<group>"; };
 		622CFDDB231E8E7600FF16B4 /* MonumentDetailResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MonumentDetailResponse.swift; sourceTree = "<group>"; };
 		627DB4F5232A617E00D21A81 /* MonumentDetailRealmStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MonumentDetailRealmStore.swift; sourceTree = "<group>"; };
+		6296D8D2232F6816004EA7CF /* NavigationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationController.swift; sourceTree = "<group>"; };
 		62A633232328E33500CBCDB6 /* SourceStrategy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SourceStrategy.swift; sourceTree = "<group>"; };
-		62EA0763231FFDD9004C6AE1 /* NavigationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = NavigationController.swift; path = ../../../../../../../Downloads/enel_edistapp_ios/Enel/Common/UI/NavigationControllers/NavigationController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -265,7 +265,7 @@
 		363C155720DE4EB900F1A075 /* UI */ = {
 			isa = PBXGroup;
 			children = (
-				622CFDA12317F14500FF16B4 /* NavigationControllers */,
+				6296D8D1232F6802004EA7CF /* NavigationControllers */,
 				363C155A20DE4F3100F1A075 /* Utils */,
 			);
 			path = UI;
@@ -406,14 +406,6 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		622CFDA12317F14500FF16B4 /* NavigationControllers */ = {
-			isa = PBXGroup;
-			children = (
-				62EA0763231FFDD9004C6AE1 /* NavigationController.swift */,
-			);
-			path = NavigationControllers;
-			sourceTree = "<group>";
-		};
 		622CFDC4231E81D900FF16B4 /* MonumentDetail */ = {
 			isa = PBXGroup;
 			children = (
@@ -443,6 +435,14 @@
 				622CFDD5231E89EA00FF16B4 /* MonumentDetail.swift */,
 			);
 			path = Domain;
+			sourceTree = "<group>";
+		};
+		6296D8D1232F6802004EA7CF /* NavigationControllers */ = {
+			isa = PBXGroup;
+			children = (
+				6296D8D2232F6816004EA7CF /* NavigationController.swift */,
+			);
+			path = NavigationControllers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -565,7 +565,6 @@
 				363C155120DE422800F1A075 /* Constants.swift in Sources */,
 				363C156920DE507D00F1A075 /* MonumentListStore.swift in Sources */,
 				363C155920DE4EE900F1A075 /* SerializableUtils.swift in Sources */,
-				62EA0764231FFDD9004C6AE1 /* NavigationController.swift in Sources */,
 				622CFDC3231E55F200FF16B4 /* MonumentListResponse.swift in Sources */,
 				363C158620DE58F300F1A075 /* MonumentListViewController.swift in Sources */,
 				363C158720DE58F300F1A075 /* MonumentListDependencyInjector.swift in Sources */,
@@ -575,6 +574,7 @@
 				622CFDDC231E8E7600FF16B4 /* MonumentDetailResponse.swift in Sources */,
 				363C156520DE504800F1A075 /* APIResponse+Network.swift in Sources */,
 				363C154420DE414600F1A075 /* ProductionDI.swift in Sources */,
+				6296D8D3232F6816004EA7CF /* NavigationController.swift in Sources */,
 				363C156E20DE514A00F1A075 /* MonumentListAPIStore.swift in Sources */,
 				363C153C20DE410200F1A075 /* NetworkAssembly.swift in Sources */,
 				622CFDB9231D3B9C00FF16B4 /* mapper.swift in Sources */,
