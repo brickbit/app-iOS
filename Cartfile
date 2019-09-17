@@ -1,5 +1,0 @@
-github "Swinject/Swinject"
-github "CosmicMind/Material"
-github "Alamofire/Alamofire" "4.8.0"
-github "realm/realm-cocoa"
-github "tristanhimmelman/AlamofireObjectMapper" ~> 5.2
