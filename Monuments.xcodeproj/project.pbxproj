@@ -410,7 +410,6 @@
 				33E4845797C638E666813B8D /* Pods-Monuments.release.xcconfig */,
 			);
 			name = Pods;
-			path = Pods;
 			sourceTree = "<group>";
 		};
 		FA265A198C751870535E0F8B /* Frameworks */ = {
