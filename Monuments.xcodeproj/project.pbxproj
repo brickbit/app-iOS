@@ -22,7 +22,6 @@
 		363C154B20DE417A00F1A075 /* SceneDependencyInjector.swift in Sources */ = {isa = PBXBuildFile; fileRef = 363C154A20DE417A00F1A075 /* SceneDependencyInjector.swift */; };
 		363C154D20DE418C00F1A075 /* SwinjectViewControllerDependencyInjector.swift in Sources */ = {isa = PBXBuildFile; fileRef = 363C154C20DE418C00F1A075 /* SwinjectViewControllerDependencyInjector.swift */; };
 		363C155120DE422800F1A075 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 363C155020DE422800F1A075 /* Constants.swift */; };
-		363C155920DE4EE900F1A075 /* SerializableUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 363C155820DE4EE900F1A075 /* SerializableUtils.swift */; };
 		363C155C20DE4F3B00F1A075 /* UIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 363C155B20DE4F3B00F1A075 /* UIView.swift */; };
 		363C155F20DE4F9E00F1A075 /* MonumentList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 363C155E20DE4F9E00F1A075 /* MonumentList.swift */; };
 		363C156920DE507D00F1A075 /* MonumentListStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 363C156820DE507D00F1A075 /* MonumentListStore.swift */; };
@@ -41,12 +40,10 @@
 		622CFD9B2317F09C00FF16B4 /* Realm.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 622CFD9A2317F09C00FF16B4 /* Realm.framework */; };
 		622CFD9D2317F0A900FF16B4 /* RealmSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 622CFD9C2317F0A900FF16B4 /* RealmSwift.framework */; };
 		622CFDA02317F0C800FF16B4 /* Swinject.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 363C157A20DE561900F1A075 /* Swinject.framework */; };
-		622CFDB1231D1E1F00FF16B4 /* APIResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 622CFDB0231D1E1F00FF16B4 /* APIResponse.swift */; };
-		622CFDB3231D1E3300FF16B4 /* APIError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 622CFDB2231D1E3300FF16B4 /* APIError.swift */; };
 		622CFDB9231D3B9C00FF16B4 /* mapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 622CFDB8231D3B9C00FF16B4 /* mapper.swift */; };
 		622CFDBB231D51AA00FF16B4 /* MonumentListViewController+TableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 622CFDBA231D51AA00FF16B4 /* MonumentListViewController+TableView.swift */; };
 		622CFDBD231D54AA00FF16B4 /* MonumentListCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 622CFDBC231D54AA00FF16B4 /* MonumentListCell.swift */; };
-		622CFDC3231E55F200FF16B4 /* MonumentListResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 622CFDC2231E55F200FF16B4 /* MonumentListResponse.swift */; };
+		622CFDC3231E55F200FF16B4 /* MonumentListResponseApi.swift in Sources */ = {isa = PBXBuildFile; fileRef = 622CFDC2231E55F200FF16B4 /* MonumentListResponseApi.swift */; };
 		622CFDC6231E820000FF16B4 /* MonumentDetailDependencyInjector.swift in Sources */ = {isa = PBXBuildFile; fileRef = 622CFDC5231E820000FF16B4 /* MonumentDetailDependencyInjector.swift */; };
 		622CFDC8231E820E00FF16B4 /* MonumentDetailInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 622CFDC7231E820E00FF16B4 /* MonumentDetailInteractor.swift */; };
 		622CFDCA231E822300FF16B4 /* MonumentDetailModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 622CFDC9231E822300FF16B4 /* MonumentDetailModels.swift */; };
@@ -58,10 +55,12 @@
 		622CFDD6231E89EA00FF16B4 /* MonumentDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 622CFDD5231E89EA00FF16B4 /* MonumentDetail.swift */; };
 		622CFDD8231E8C4300FF16B4 /* MonumentDetailAPIStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 622CFDD7231E8C4300FF16B4 /* MonumentDetailAPIStore.swift */; };
 		622CFDDA231E8CFF00FF16B4 /* MonumentDetailAPIRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 622CFDD9231E8CFF00FF16B4 /* MonumentDetailAPIRouter.swift */; };
-		622CFDDC231E8E7600FF16B4 /* MonumentDetailResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 622CFDDB231E8E7600FF16B4 /* MonumentDetailResponse.swift */; };
+		622CFDDC231E8E7600FF16B4 /* MonumentDetailResponseApi.swift in Sources */ = {isa = PBXBuildFile; fileRef = 622CFDDB231E8E7600FF16B4 /* MonumentDetailResponseApi.swift */; };
 		627DB4F6232A617E00D21A81 /* MonumentDetailRealmStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 627DB4F5232A617E00D21A81 /* MonumentDetailRealmStore.swift */; };
 		6296D8D3232F6816004EA7CF /* NavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6296D8D2232F6816004EA7CF /* NavigationController.swift */; };
 		62A633242328E33500CBCDB6 /* SourceStrategy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62A633232328E33500CBCDB6 /* SourceStrategy.swift */; };
+		62F4C03F233215FB00F35FE1 /* MonumentListResponseRealm.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62F4C03E233215FB00F35FE1 /* MonumentListResponseRealm.swift */; };
+		62F4C0412332163400F35FE1 /* MonumentDetailResponseRealm.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62F4C0402332163400F35FE1 /* MonumentDetailResponseRealm.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -82,7 +81,6 @@
 		363C154A20DE417A00F1A075 /* SceneDependencyInjector.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDependencyInjector.swift; sourceTree = "<group>"; };
 		363C154C20DE418C00F1A075 /* SwinjectViewControllerDependencyInjector.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwinjectViewControllerDependencyInjector.swift; sourceTree = "<group>"; };
 		363C155020DE422800F1A075 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
-		363C155820DE4EE900F1A075 /* SerializableUtils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SerializableUtils.swift; sourceTree = "<group>"; };
 		363C155B20DE4F3B00F1A075 /* UIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIView.swift; sourceTree = "<group>"; };
 		363C155E20DE4F9E00F1A075 /* MonumentList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MonumentList.swift; sourceTree = "<group>"; };
 		363C156820DE507D00F1A075 /* MonumentListStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MonumentListStore.swift; sourceTree = "<group>"; };
@@ -104,12 +102,10 @@
 		622CFD9A2317F09C00FF16B4 /* Realm.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Realm.framework; path = Carthage/Build/iOS/Realm.framework; sourceTree = "<group>"; };
 		622CFD9C2317F0A900FF16B4 /* RealmSwift.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RealmSwift.framework; path = Carthage/Build/iOS/RealmSwift.framework; sourceTree = "<group>"; };
 		622CFD9E2317F0B900FF16B4 /* SwiftyJSON.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftyJSON.framework; path = Carthage/Build/iOS/SwiftyJSON.framework; sourceTree = "<group>"; };
-		622CFDB0231D1E1F00FF16B4 /* APIResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIResponse.swift; sourceTree = "<group>"; };
-		622CFDB2231D1E3300FF16B4 /* APIError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIError.swift; sourceTree = "<group>"; };
 		622CFDB8231D3B9C00FF16B4 /* mapper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = mapper.swift; sourceTree = "<group>"; };
 		622CFDBA231D51AA00FF16B4 /* MonumentListViewController+TableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "MonumentListViewController+TableView.swift"; sourceTree = "<group>"; };
 		622CFDBC231D54AA00FF16B4 /* MonumentListCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MonumentListCell.swift; sourceTree = "<group>"; };
-		622CFDC2231E55F200FF16B4 /* MonumentListResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MonumentListResponse.swift; sourceTree = "<group>"; };
+		622CFDC2231E55F200FF16B4 /* MonumentListResponseApi.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MonumentListResponseApi.swift; sourceTree = "<group>"; };
 		622CFDC5231E820000FF16B4 /* MonumentDetailDependencyInjector.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MonumentDetailDependencyInjector.swift; sourceTree = "<group>"; };
 		622CFDC7231E820E00FF16B4 /* MonumentDetailInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MonumentDetailInteractor.swift; sourceTree = "<group>"; };
 		622CFDC9231E822300FF16B4 /* MonumentDetailModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MonumentDetailModels.swift; sourceTree = "<group>"; };
@@ -121,10 +117,12 @@
 		622CFDD5231E89EA00FF16B4 /* MonumentDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MonumentDetail.swift; sourceTree = "<group>"; };
 		622CFDD7231E8C4300FF16B4 /* MonumentDetailAPIStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MonumentDetailAPIStore.swift; sourceTree = "<group>"; };
 		622CFDD9231E8CFF00FF16B4 /* MonumentDetailAPIRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MonumentDetailAPIRouter.swift; sourceTree = "<group>"; };
-		622CFDDB231E8E7600FF16B4 /* MonumentDetailResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MonumentDetailResponse.swift; sourceTree = "<group>"; };
+		622CFDDB231E8E7600FF16B4 /* MonumentDetailResponseApi.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MonumentDetailResponseApi.swift; sourceTree = "<group>"; };
 		627DB4F5232A617E00D21A81 /* MonumentDetailRealmStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MonumentDetailRealmStore.swift; sourceTree = "<group>"; };
 		6296D8D2232F6816004EA7CF /* NavigationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationController.swift; sourceTree = "<group>"; };
 		62A633232328E33500CBCDB6 /* SourceStrategy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SourceStrategy.swift; sourceTree = "<group>"; };
+		62F4C03E233215FB00F35FE1 /* MonumentListResponseRealm.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MonumentListResponseRealm.swift; sourceTree = "<group>"; };
+		62F4C0402332163400F35FE1 /* MonumentDetailResponseRealm.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MonumentDetailResponseRealm.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -247,7 +245,6 @@
 		363C155620DE4EB200F1A075 /* Network */ = {
 			isa = PBXGroup;
 			children = (
-				363C155820DE4EE900F1A075 /* SerializableUtils.swift */,
 			);
 			path = Network;
 			sourceTree = "<group>";
@@ -274,8 +271,6 @@
 			children = (
 				622CFDDE231E915500FF16B4 /* Domain */,
 				622CFDDD231E913E00FF16B4 /* Data */,
-				622CFDB0231D1E1F00FF16B4 /* APIResponse.swift */,
-				622CFDB2231D1E3300FF16B4 /* APIError.swift */,
 				62A633232328E33500CBCDB6 /* SourceStrategy.swift */,
 			);
 			path = Models;
@@ -410,8 +405,10 @@
 		622CFDDD231E913E00FF16B4 /* Data */ = {
 			isa = PBXGroup;
 			children = (
-				622CFDC2231E55F200FF16B4 /* MonumentListResponse.swift */,
-				622CFDDB231E8E7600FF16B4 /* MonumentDetailResponse.swift */,
+				62F4C03D233215DD00F35FE1 /* Realm */,
+				62F4C03C233215BE00F35FE1 /* API */,
+				622CFDC2231E55F200FF16B4 /* MonumentListResponseApi.swift */,
+				622CFDDB231E8E7600FF16B4 /* MonumentDetailResponseApi.swift */,
 			);
 			path = Data;
 			sourceTree = "<group>";
@@ -431,6 +428,22 @@
 				6296D8D2232F6816004EA7CF /* NavigationController.swift */,
 			);
 			path = NavigationControllers;
+			sourceTree = "<group>";
+		};
+		62F4C03C233215BE00F35FE1 /* API */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = API;
+			sourceTree = "<group>";
+		};
+		62F4C03D233215DD00F35FE1 /* Realm */ = {
+			isa = PBXGroup;
+			children = (
+				62F4C03E233215FB00F35FE1 /* MonumentListResponseRealm.swift */,
+				62F4C0402332163400F35FE1 /* MonumentDetailResponseRealm.swift */,
+			);
+			path = Realm;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -542,22 +555,23 @@
 				622CFDD0231E82D800FF16B4 /* MonumentDetailViewController.swift in Sources */,
 				622CFDCA231E822300FF16B4 /* MonumentDetailModels.swift in Sources */,
 				622CFDCC231E826E00FF16B4 /* MonumentDetailPresenter.swift in Sources */,
+				62F4C03F233215FB00F35FE1 /* MonumentListResponseRealm.swift in Sources */,
 				363C155F20DE4F9E00F1A075 /* MonumentList.swift in Sources */,
 				363C158420DE58F300F1A075 /* MonumentListRouter.swift in Sources */,
+				62F4C0412332163400F35FE1 /* MonumentDetailResponseRealm.swift in Sources */,
 				363C158520DE58F300F1A075 /* MonumentListModels.swift in Sources */,
 				363C155C20DE4F3B00F1A075 /* UIView.swift in Sources */,
 				363C154020DE412D00F1A075 /* DependencyInjectionManager.swift in Sources */,
 				363C158320DE58F300F1A075 /* MonumentListPresenter.swift in Sources */,
 				363C155120DE422800F1A075 /* Constants.swift in Sources */,
 				363C156920DE507D00F1A075 /* MonumentListStore.swift in Sources */,
-				363C155920DE4EE900F1A075 /* SerializableUtils.swift in Sources */,
-				622CFDC3231E55F200FF16B4 /* MonumentListResponse.swift in Sources */,
+				622CFDC3231E55F200FF16B4 /* MonumentListResponseApi.swift in Sources */,
 				363C158620DE58F300F1A075 /* MonumentListViewController.swift in Sources */,
 				363C158720DE58F300F1A075 /* MonumentListDependencyInjector.swift in Sources */,
 				622CFDBD231D54AA00FF16B4 /* MonumentListCell.swift in Sources */,
 				363C154B20DE417A00F1A075 /* SceneDependencyInjector.swift in Sources */,
 				363C154D20DE418C00F1A075 /* SwinjectViewControllerDependencyInjector.swift in Sources */,
-				622CFDDC231E8E7600FF16B4 /* MonumentDetailResponse.swift in Sources */,
+				622CFDDC231E8E7600FF16B4 /* MonumentDetailResponseApi.swift in Sources */,
 				363C154420DE414600F1A075 /* ProductionDI.swift in Sources */,
 				6296D8D3232F6816004EA7CF /* NavigationController.swift in Sources */,
 				363C156E20DE514A00F1A075 /* MonumentListAPIStore.swift in Sources */,
@@ -567,11 +581,9 @@
 				622CFDDA231E8CFF00FF16B4 /* MonumentDetailAPIRouter.swift in Sources */,
 				622CFDC8231E820E00FF16B4 /* MonumentDetailInteractor.swift in Sources */,
 				363C157220DE518D00F1A075 /* MonumentListRealmStore.swift in Sources */,
-				622CFDB1231D1E1F00FF16B4 /* APIResponse.swift in Sources */,
 				363C158820DE58F300F1A075 /* MonumentListInteractor.swift in Sources */,
 				363C154220DE413A00F1A075 /* DIBuilder.swift in Sources */,
 				363C157420DE51B300F1A075 /* MonumentListStoreWorker.swift in Sources */,
-				622CFDB3231D1E3300FF16B4 /* APIError.swift in Sources */,
 				622CFDD8231E8C4300FF16B4 /* MonumentDetailAPIStore.swift in Sources */,
 				363C154920DE416D00F1A075 /* ViewControllerDependencyInjector.swift in Sources */,
 				622CFDD4231E896200FF16B4 /* MonumentDetailStore.swift in Sources */,

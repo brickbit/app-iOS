@@ -33,22 +33,4 @@ class MonumentResponse: Mappable {
     }
 }
 
-import RealmSwift
 
-class MonumentListRealm: Object {
-    let list = List<MonumentRealm>()
-}
-
-class MonumentRealm: Object, Mappable {
-    @objc dynamic var id: String?
-    @objc dynamic var title: String?
-    @objc dynamic var geocoordinates: String?
-    
-    required convenience init?(map: Map) { self.init() }
-    
-    func mapping(map: Map) {
-        id <- map["id"]
-        title <- map["title"]
-        geocoordinates <- map["geocoordinates"]
-    }
-}
