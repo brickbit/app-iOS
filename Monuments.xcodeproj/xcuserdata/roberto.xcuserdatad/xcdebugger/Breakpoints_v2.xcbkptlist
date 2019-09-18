@@ -218,7 +218,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "CleanArchitecture/Services/Stores/Network/MonumentListAPIStore.swift"
-            timestampString = "589978553.530726"
+            timestampString = "590496671.10259"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "16"
@@ -522,11 +522,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "CleanArchitecture/Scenes/MonumentDetail/MonumentDetailViewController.swift"
-            timestampString = "590054752.199918"
+            timestampString = "590498580.624077"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "61"
-            endingLineNumber = "61"
+            startingLineNumber = "60"
+            endingLineNumber = "60"
             landmarkName = "getDetail()"
             landmarkType = "7">
          </BreakpointContent>

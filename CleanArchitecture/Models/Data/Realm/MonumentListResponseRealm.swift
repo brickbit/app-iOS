@@ -8,6 +8,7 @@
 
 import Foundation
 import RealmSwift
+import ObjectMapper
 
 class MonumentListRealm: Object {
     let list = List<MonumentRealm>()

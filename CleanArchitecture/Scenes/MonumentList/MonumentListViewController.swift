@@ -45,16 +45,27 @@ class MonumentListViewController: UITableViewController, MonumentListDisplayLogi
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        getList()
+        getList() { (success) -> Void in
+            switch success{
+                case true:
+                    print("HA FUNCIONADO")
+                    break
+                case false:
+                    print("NO HA FUNCIONADO")
+                    break
+            }
+        }
     }
 
-    
+    typealias GetListCompletionHandler = (Bool) -> Void
     // MARK: Requests
-    func getList() {
+    func getList(completionHandler: @escaping GetListCompletionHandler) {
         let request = MonumentListScene.getList.Request()
-        if (interactor?.getList(request: request) == false) {
-            interactor?.getList(request: request)
+        var result: Bool = (interactor?.getList(request: request))!
+        if (result == false) {
+            result = (interactor?.getList(request: request))!
         }
+        completionHandler(result)
     }
     
     // MARK: Display logic

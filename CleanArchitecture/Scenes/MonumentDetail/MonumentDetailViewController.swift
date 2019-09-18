@@ -53,7 +53,6 @@ class MonumentDetailViewController: UIViewController, MonumentDetailDisplayLogic
         getDetail()
     }
     
-    
     // MARK: Requests
     func getDetail() {
         let request = MonumentDetailScene.getDetail.Request(id: id ?? "-1")
